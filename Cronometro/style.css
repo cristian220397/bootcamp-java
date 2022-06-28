@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height:100vh;
+    background-color: rgb(42, 126, 196);
+}
+
+.estilo{
+    max-width: 700px;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(55, 139, 139);
+   
+    
+}
+
+.boton{
+   max-width: 100px;
+   width: 80%;
+
+}
+
+.timer{
+    font-weight: 100;
+    font-size: 40px;
+    
+    
+    
+    
+}
+
+.texto{
+    font-weight: 100;
+    font-size: 25px;
+}
